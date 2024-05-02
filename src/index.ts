@@ -333,3 +333,4 @@ value
 //  هنا المشكله بعد تنفيذ الكود
  let data : any = 1000
  console.log((data as string).repeat(3));  // مش هيطلع ايرور الا لما ارن الكود 
+//  data.repeat is not a function  -> نفس ايرور الجافا سكريبت 
