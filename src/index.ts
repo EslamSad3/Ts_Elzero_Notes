@@ -312,7 +312,6 @@ HTMLElement
 // let myImg = <HTMLImageElement>document.getElementById("my-img");
 // console.log(myImg.src); // شغال تمام
 
-
 // Error
 
 // let myImg = <HTMLImageElement>document.getElementById("my-img");
@@ -323,3 +322,13 @@ Attribute
 اسمه 
 value
 */
+
+
+// علشان نتأكد انه مش بيعمل تشيك بعديك
+// let data: any = "1000";
+// console.log((data as string).repeat(3)); // 100010001000
+ //  هنا مفيش مشكله 
+
+
+ let data : any = 1000
+ console.log((data as string).repeat(3));  // مش هيطلع ايرور الا لما ارن الكود 
